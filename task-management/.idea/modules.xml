@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-dao/Task-management.app-dao.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-dao/Task-management.app-dao.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-service/Task-management.app-service.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-service/Task-management.app-service.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app-utils/Task-management.app-utils.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app-utils/Task-management.app-utils.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/task-management.iml" filepath="$PROJECT_DIR$/.idea/task-management.iml" />
     </modules>
   </component>

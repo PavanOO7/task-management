@@ -8,6 +8,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/task-management" />
+            <option value="$PROJECT_DIR$/task-management/app-dao" />
+            <option value="$PROJECT_DIR$/task-management/app-engine" />
+            <option value="$PROJECT_DIR$/task-management/app-service" />
+            <option value="$PROJECT_DIR$/task-management/app-utils" />
           </set>
         </option>
       </GradleProjectSettings>
