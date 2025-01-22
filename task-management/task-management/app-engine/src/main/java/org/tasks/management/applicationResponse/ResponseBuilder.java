@@ -11,7 +11,7 @@ public class ResponseBuilder {
 
 public static TaskManagementResponse buildResponse(Object body){
     TaskManagementResponse taskManagementResponse = new TaskManagementResponse();
-    taskManagementResponse.setBody(body);
+//    taskManagementResponse.setBody(body);
 //    taskManagementResponse.setStatus(status);
     return taskManagementResponse;
 }
@@ -20,8 +20,8 @@ public static TaskManagementResponse buildResponse(Object body){
                                                        Integer totalPages, List<ErrorResponse> errors,
                                                        String status){
         TaskManagementResponse taskManagementResponse = new TaskManagementResponse();
-        taskManagementResponse.setBody(body);
-        taskManagementResponse.setStatus(status);
+//        taskManagementResponse.setBody(body);
+//        taskManagementResponse.setStatus(status);
         return taskManagementResponse;
     }
 }

@@ -1,4 +1,4 @@
-package service;
+package org.tasks.management.service;
 
 import dto.UserDto;
 

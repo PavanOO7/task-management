@@ -2,32 +2,29 @@ package org.tasks.management.controller;
 
 
 import dto.UserDto;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import org.tasks.management.applicationResponse.ResponseBuilder;
-import org.tasks.management.models.TaskManagementResponse;
-import service.UserService;
+import org.springframework.web.bind.annotation.*;
+import org.tasks.management.service.UserService;
 import validation.OnCreate;
 
 @RestController
 @RequestMapping("/user")
 public class UserController {
 
+    @Autowired
+    private  UserService userService;
 
-    private final UserService userService;
 
-    public UserController(UserService userService) {
-        this.userService = userService;
+    @GetMapping("/create")
+    public String returnText(){
+        return "Hello";
     }
 
-    @PostMapping("/create")
-    public ResponseEntity<TaskManagementResponse> createUser(@RequestBody @Validated(OnCreate.class)UserDto userDto){
 
-     return new ResponseEntity<>(ResponseBuilder.buildResponse(userService.createUser(userDto)),HttpStatus.CREATED);
+    @PostMapping("/create")
+    public String createUser(@RequestBody @Validated(OnCreate.class)UserDto userDto){
+  return "HELLO WORLD";
+//     return new ResponseEntity<>(ResponseBuilder.buildResponse(userService.createUser(userDto)),HttpStatus.CREATED);
     }
 }

@@ -1,8 +1,7 @@
-package service.implementation;
+package org.tasks.management.service.implementation;
 
-import service.UserService;
+import org.tasks.management.service.UserService;
 import dto.UserDto;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 @Service
