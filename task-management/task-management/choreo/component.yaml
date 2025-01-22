@@ -1,0 +1,8 @@
+schemaVersion: "1.0"
+
+# Example endpoint configuration
+endpoints:
+  - name: task-management-endpoint
+    service:
+      port: 8080  # Replace with your actual service port
+    type: REST
