@@ -1,8 +1,11 @@
-schemaVersion: "1.0"
-
-# Example endpoint configuration
+schemaVersion: "1.1"
 endpoints:
   - name: task-management-endpoint
+    displayName: task-management-endpoint
     service:
-      port: 8080  # Replace with your actual service port
+      basePath: /
+      port: 8080
     type: REST
+    networkVisibilities:
+      - Public
+    schemaFilePath: .
