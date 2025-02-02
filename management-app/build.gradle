@@ -1,0 +1,10 @@
+plugins {
+    id "org.springframework.boot" version "3.1.1"
+}
+dependencies {
+    implementation project(':management-service')
+    implementation project(':management-utils')
+    implementation project(':management-dao')
+    implementation 'org.springframework.boot:spring-boot-starter'
+    runtimeOnly 'org.postgresql:postgresql'
+}

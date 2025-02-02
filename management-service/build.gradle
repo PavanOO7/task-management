@@ -1,0 +1,5 @@
+dependencies {
+    implementation project(":management-utils")
+    implementation project(":management-dao")
+    implementation project(":management-repository")
+}

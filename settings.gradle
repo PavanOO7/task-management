@@ -1,0 +1,8 @@
+rootProject.name = 'Task-management'
+include 'management-app'
+include 'management-service'
+include 'management-utils'
+include 'management-dao'
+
+include 'management-repository'
+

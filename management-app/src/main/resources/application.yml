@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://ep-winter-sun-a8y2frrq-pooler.eastus2.azure.neon.tech:5432/Mydb
+    username: Mydb_owner
+    password: brSuoqcy9Gf0
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+
+
+

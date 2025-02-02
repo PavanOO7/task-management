@@ -1,7 +1,0 @@
-rootProject.name = 'Task-management'
-include 'app-engine'
-include 'app-utils'
-include 'app-service'
-include 'app-dao'
-
-
